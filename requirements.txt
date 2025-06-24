@@ -1,0 +1,35 @@
+# Core LangChain Modules
+langchain
+langchain-core
+
+# Groq Integration
+langchain-groq
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Streamlit Web UI
+streamlit
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# Regex Support
+regex
