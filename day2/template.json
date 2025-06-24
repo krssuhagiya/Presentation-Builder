@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "audience_type",
+        "explanation_style",
+        "slide_length",
+        "topic_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert presenter and content writer.\n\nCreate a presentation-style breakdown of the topic: \"{topic_input}\", intended for {audience_type}.\n\nExplanation Style: {explanation_style}\nSlide Length Preference: {slide_length}\n\nThe presentation should aim for a length consistent with this preference (e.g., 2, 5, or 7 slides). Combine or skip sections as needed.\n\nSuggested structure:\n    Slide 1: Introduction / Overview\n    Slide 2: Why it Matters (Importance / Real-Life Relevance)\n    Slide 3: Core Concepts\n    Slide 4: How It Works / Examples / Analogies\n    Slide 5: Applications or Use Cases\n    Slide 6: Challenges / Common Misconceptions\n    Slide 7: Conclusion / Key Takeaways\n\nFor each slide, use the following format:\n\nSlide {{number}}: {{Slide Title}}\n- Bullet Point 1\n- Bullet Point 2\n- Bullet Point 3\nSuggested Visual: {{Your suggestion here}}\n\nGuidelines:\n    - Use simple, clear language suited for the selected audience\n    - Use analogies where helpful\n    - If a slide isn\u2019t applicable, mark it as \u201cNot applicable\u201d\n\nReturn only the formatted presentation slides. Do not include any extra commentary or explanation.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
